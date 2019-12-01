@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ClickOnDS" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="default">
+				<Option output="ClickOnDS.nds" prefix_auto="0" extension_auto="0" />
+				<Option type="3" />
+				<Option compiler="armelfgcc" />
+				<Option parameters="ClickOnDS.nds" />
+				<Option host_application="desmume" />
+				<MakeCommands>
+					<Build command="make" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="make clean" />
+					<DistClean command="$make -f $makefile distclean" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="source/effects.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/effects.h" />
+		<Unit filename="source/highscores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/highscores.h" />
+		<Unit filename="source/instructions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/instructions.h" />
+		<Unit filename="source/jeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/jeu.h" />
+		<Unit filename="source/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/main.h" />
+		<Unit filename="source/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="source/menu.h" />
+		<Extensions>
+			<envvars />
+			<code_completion>
+				<search_path add="/home/minishlink/devkitpro/libnds/include" />
+			</code_completion>
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

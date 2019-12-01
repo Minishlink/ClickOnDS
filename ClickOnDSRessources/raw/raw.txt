@@ -1,0 +1,6 @@
+FourSwordsv2 = MUSIC_Instructions
+z3minigame = MUSIC_Jeu
+oracles_field = MUSIC_Highscores
+la1 = MUSIC_Menu
+ZeldaEnd = MUSIC_Credits
+Zelda-Item = SFX_FinJeu
